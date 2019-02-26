@@ -32,6 +32,7 @@ export default {
     }
   },
   methods: {
+    // axios 获取数据
     getHomeInfo () {
       axios.get('/api/index.json')
         .then(this.getHomeInfoSucc)
